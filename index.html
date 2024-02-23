@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather indicator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="input-location">
+            <input type="text" placeholder="Enter location" class="ibox">
+            <button type="submit" class="btn" id="sbtn">Search</button>
+        </div>
+    <div class="weather">
+        <div class="imgdiv">
+        <img src="weatmain.jpg" height="250px" width="250px" class="img1">
+        </div>
+        <div class="textdiv">
+        <p id="weatherinfo">0 <sup style="font-size: 30px; font-weight: 300;">.C</sup></p>
+        <p class="weatherinfo">Light rain</p>
+       </div>
+    </div>
+    <div class="infow">
+        <div class="imgdiv1">
+            <img src="humweat.jpg"  height="50px" width="50px"><br>
+            <p class="hwp"><span id="humidity" >45%</span><br>
+            Humidity</p>
+        </div>
+        <div class="textdiv1">
+            <img src="windweat.jpg" height="50px" width="50px">
+            <p class="hwp"><span id="windspeed">15km/h</span><br>
+             Wind Speed</p>
+        </div>
+    </div>
+    </div>
+<script src="script.js"></script>    
+</body>
+</html>
